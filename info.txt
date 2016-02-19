@@ -1,0 +1,33 @@
+https://www.npmjs.com/package/faker
+var faker = require('faker');
+var randomName = faker.name.findName(); // Rowan Nikolaus
+
+
+https://www.npmjs.com/package/wordpress
+
+POSTFIELD  MAPPING
+maps.post = createFieldMaps({
+	author: /* int */ "post_author",
+	commentStatus: /* string */ "comment_status",
+	content: /* string */ "post_content",
+	customFields: /* array */ "custom_fields",
+	date: /* datetime */ "post_date",
+	excerpt: /* string */ "post_excerpt",
+	format: /* string */"post_format",
+	id: /* string */ "post_id", /* readonly */
+	link: /* string */ "link" /* readonly */,
+	modified: /* datetime */ "post_modified",
+	menuOrder: /* int */ "menu_order",
+	name: /* string */ "post_name",
+	pageTemplate: /* string */ "page_template",
+	parent: /* int */ "post_parent",
+	password: /* string */ "post_password",
+	pingStatus: /* string */ "ping_status",
+	status: /* string */ "post_status",
+	sticky: /* bool */ "sticky",
+	terms: /* struct */ "terms" /* array */,
+	termNames: /* struct */ "terms_names",
+	thumbnail: /* int */ "post_thumbnail",
+	title: /* string */ "post_title",
+	type: /* string */ "post_type"
+}
